@@ -423,6 +423,8 @@ dtb-$(CONFIG_SOC_IMX6UL) += \
 	imx6ulz-14x14-evk-emmc.dtb \
 	imx6ulz-14x14-evk-gpmi-weim.dtb \
 	imx6ulz-bsh-smm-m2.dtb
+dtb-$(CONFIG_SOC_OPENDOS) += \
+	imx6ull-opendos-emmc.dtb
 
 imx6ul-14x14-evk-reve-dtbs := imx6ul-14x14-evk.dtb imx6ul-14x14-evk-reve.dtbo
 imx6ul-14x14-evk-reve-csi-dtbs := imx6ul-14x14-evk-csi.dtb imx6ul-14x14-evk-reve.dtbo
